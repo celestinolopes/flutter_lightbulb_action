@@ -1,0 +1,54 @@
+{
+    "name": "flutter-lightbulb",
+    "displayName": "Flutter Lightbulb Action",
+    "description": "Interactive Flutter extension with clickable hover menu over widgets. Execute refactorings directly without using keys!",
+    "version": "1.0.0",
+    "publisher": "Celestino",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/celestinolpes/flutter-lightbulb"
+    },
+    "keywords": [
+        "flutter",
+        "dart",
+        "refactor",
+        "widget",
+        "hover",
+        "interactive"
+    ],
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "activationEvents": [
+        "onLanguage:dart"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "flutter-lightbulb.quick-fix",
+                "title": "💡 Flutter Quick Fix"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "flutter-lightbulb.quick-fix",
+                "key": "ctrl+shift+r",
+                "mac": "cmd+shift+r",
+                "when": "editorTextFocus && editorLangId == dart"
+            }
+        ],
+        "codeActions": [
+            {
+                "language": "dart",
+                "kind": "quickfix.flutterLightbulb"
+            }
+        ]
+    },
+    "categories": [
+        "Other"
+    ],
+    "devDependencies": {
+        "vsce": "^2.15.0"
+    }
+}
