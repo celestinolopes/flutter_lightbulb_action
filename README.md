@@ -73,24 +73,6 @@ Widget: Container
 - **Flutter**: Any version
 - **Dart**: Any version
 
-##  Changelog
-
-### v1.0.0
-- Interactive hover menu implemented
-- Clickable links for all actions
-- Direct execution without keys
-- Smart widget detection
-- 10+ refactoring actions available
-
-##  Known Issues
-
-- Hover may not appear on very small widgets
-- Some actions may depend on specific code context
-
-
-## 📄 License
-
-This project is under the MIT license. See the LICENSE file for more details.
 
 ## 👨‍💻 Author
 
