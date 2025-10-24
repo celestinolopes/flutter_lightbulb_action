@@ -4,11 +4,11 @@ An interactive VS Code extension that makes Flutter widget refactoring easier wi
 
 ##  Features
 
-- **🎯 Interactive Hover**: Hover over Flutter widgets to see a menu with refactoring options
-- **🔗 Clickable Links**: Execute actions directly by clicking menu links
-- **⚡ No Keys Required**: No need to use Ctrl+Shift+R - everything works with the mouse
-- **🚀 Multiple Actions**: 10+ refactoring options available
-- **📱 Smart Detection**: Automatically identifies Flutter widgets
+- **  Interactive Hover**: Hover over Flutter widgets to see a menu with refactoring options
+- ** Clickable Links**: Execute actions directly by clicking menu links
+- ** No Keys Required**: No need to use Ctrl+Shift+R - everything works with the mouse
+- ** Multiple Actions**: 10+ refactoring options available
+- ** Smart Detection**: Automatically identifies Flutter widgets
 
 ##  How to Install
 
@@ -47,7 +47,7 @@ class MyWidget extends StatelessWidget {
 }
 ```
 
-## 🔧 Available Actions
+## Available Actions
 
 ### 💡 **Quick Actions:**
 - **Quick Fix** - Open Flutter refactor menu
@@ -57,9 +57,6 @@ class MyWidget extends StatelessWidget {
 
 - **Cmd+Shift+R** (Mac) / **Ctrl+Shift+R** (Windows/Linux) - Open Quick Fix
 
-## 🎨 Screenshots
-
-When you hover over a Flutter widget, you'll see an interactive menu like this:
 
 ```
 🔧 Flutter Quick Fix
@@ -76,27 +73,20 @@ Widget: Container
 - **Flutter**: Any version
 - **Dart**: Any version
 
-## 📝 Changelog
+##  Changelog
 
 ### v1.0.0
-- ✨ Interactive hover menu implemented
-- 🔗 Clickable links for all actions
-- ⚡ Direct execution without keys
-- 🎯 Smart widget detection
-- 📦 10+ refactoring actions available
+- Interactive hover menu implemented
+- Clickable links for all actions
+- Direct execution without keys
+- Smart widget detection
+- 10+ refactoring actions available
 
-## 🐛 Known Issues
+##  Known Issues
 
 - Hover may not appear on very small widgets
 - Some actions may depend on specific code context
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-
-1. Report bugs
-2. Suggest new features
-3. Submit pull requests
 
 ## 📄 License
 
